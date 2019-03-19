@@ -9,6 +9,7 @@
   "author": "Luis Ignacio Seidan",
   "license": "ISC",
   "dependencies": {
+    "start": "node server.js",
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
   }

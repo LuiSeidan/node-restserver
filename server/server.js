@@ -18,8 +18,6 @@ app.use(bodyParser.json());
 
 app.use(  require('./routes/usuario')  );
 
-mongoose.set('collection.countDocuments', true);
-mongoose.set('collection.estimatedDocumentCount', true)
 mongoose.set('findIoneAndUpdate', true);
 mongoose.set('useCreateIndex', true);
 
